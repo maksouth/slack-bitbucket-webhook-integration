@@ -1,5 +1,5 @@
-const SLACK_WEBHOOK_URL = 'https://hooks.slack.com/services/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';
-const SLACK_CHANNEL = 'test-bitbucket-slack-webhook-integration';
+const SLACK_WEBHOOK_URL = 'https://hooks.slack.com/services/XXXXX/XXXXXXX/XXXXX'; // TODO use your Slack webhook URL here
+const SLACK_CHANNEL = 'test-bitbucket-slack-webhook-integration'; // TODO use your Slack channel here
 
 
 const sendSlackMessage = async (message) => {
