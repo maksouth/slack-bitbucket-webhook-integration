@@ -7,6 +7,10 @@ This Node.js application integrates Bitbucket with Slack by consuming Bitbucket 
 - Receives Bitbucket pull request events through webhooks.
 - Sends formatted notifications to a specified Slack channel via webhooks.
 
+Example of Slack notifications:
+![image](https://github.com/user-attachments/assets/78e3b884-5c2e-49d7-a9be-d9e5bd18eaa2)
+
+
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/) (version 14.x or higher)
@@ -43,6 +47,3 @@ ngrok http 3000
 
 4. **Further steps:**
 Read how to configure Slack and Bitbucket webhooks and test integration [here](https://reviewnudgebot.com/blog/complete-and-secure-slack-bitbucket-integration-in-20-minutes-no-oauth-no-db/)
-
-Example of Slack notifications:
-![image](https://github.com/user-attachments/assets/78e3b884-5c2e-49d7-a9be-d9e5bd18eaa2)
